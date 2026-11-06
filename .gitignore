@@ -1,0 +1,38 @@
+# --- Data (large, and licensed by SkillCorner / StatsBomb: link to the sources instead) ---
+data/
+bdb2025/
+bdb2027/
+*.zip
+*.json.gz
+*.jsonl
+
+# --- Generated results ---
+results/
+nb_test_out/
+*.parquet
+*.pkl
+
+# --- Credentials ---
+.env
+.kaggle/
+kaggle.json
+access_token
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Editors / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.iniopendata/
+nfl-big-data-bowl-2027/
+Outline (1).pdf
